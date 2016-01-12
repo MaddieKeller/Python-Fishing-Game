@@ -46,7 +46,7 @@ def fishing():
 
 def wincondition():
     global gold
-    if gold >= 100:
+    if gold >= 50:
         print("You win!\n")
         choiceRestart()
     else:
